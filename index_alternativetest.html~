@@ -59,7 +59,7 @@
       <img src="Blank.gif" width="200" height="200" alt="Filler Image" /> <br>
       Image Caption goes here. 
       </div>
-			<h1 class="left">This is a TEST.</h1>
+			<h1>This is a TEST.</h1>
             <p>
         <em>Tune in <a href="http://stream.uclaradio.com:8000/listen">here</a>
          for UCLA Radio’s regular programming.</em> You can also find us on
@@ -75,7 +75,7 @@
       <img src="Blank.gif" width="200" height="200" alt="Filler Image" /> <br>
       Image Caption goes here. 
       </div>
-			<h1 class="right">This is a TEST.</h1>
+			<h1>This is a TEST.</h1>
       <p>
         Our full site should be back up and running shortly.
         Thanks for supporting college radio!
@@ -87,8 +87,8 @@
       <img src="Blank.gif" width="200" height="200" alt="Filler Image" /> <br>
       Image Caption goes here. 
       </div>
-			<h1 class="left">This is a TEST.</h1>
-            <p class="left">
+			<h1>This is a TEST.</h1>
+            <p>
         <em>Tune in <a href="http://stream.uclaradio.com:8000/listen">here</a>
          for UCLA Radio’s regular programming.</em> You can also find us on
          <em><a href="http://tunein.com/radio/UCLA-Radio-s2652/">TuneIn</a></em>,
