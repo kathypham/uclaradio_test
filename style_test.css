@@ -30,12 +30,9 @@ h2 {
   border-color: #e5de64;
   border-width: 1px;
   z-index: 5;
-<<<<<<< HEAD
   margin: 0 0 0;
   font-family: 'Averia Serif Libre', sans-serif;
-=======
   margin: 0em -0.5em 0.1em;
->>>>>>> 5454fb12184ec01957ba1742261cf9ee43d2a3e9
   display: block;
 }
 
@@ -44,10 +41,7 @@ h3 {
   font-weight: 700;
   text-transform:uppercase;
   color: #ed1c24;
-<<<<<<< HEAD
   font-family: 'Averia Serif Libre', sans-serif;
-=======
->>>>>>> 5454fb12184ec01957ba1742261cf9ee43d2a3e9
   display: block;
 }
 
@@ -158,11 +152,7 @@ caption {
 }
 
 .left { 
-<<<<<<< HEAD
   margin: 0em 0.5em 0.5em -0.3em;
-=======
-  margin: 0em 0.8em 0.5em -0.5em;
->>>>>>> 5454fb12184ec01957ba1742261cf9ee43d2a3e9
   float:left; 
   padding: 3px;
 }
@@ -224,6 +214,31 @@ caption {
   position:relative;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+.button {
+  margin-top: 5px;
+  padding:5px;
+  border: 3px solid #ed1c24;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform:uppercase;
+  color: #ed1c24;
+  font-family: 'Averia Serif Libre', sans-serif;
+  display: block;
+
+}
+
+.button a:link, 
+.button a:hover, 
+.button a:visited {
+ font-size: 1.5em;
+  font-weight: 700;
+  text-transform:uppercase;
+  color: #ed1c24;
+  font-family: 'Averia Serif Libre', sans-serif;
+  display: block;
 }
 
 /* Gradient transparent - color - transparent */
