@@ -27,6 +27,8 @@ h2 {
   text-align: center;
   text-transform:uppercase;
   background: #f4ed74;
+  z-index: 5;
+  margin: 0em -0.5em 0.1em;
 }
 
 h3 {
@@ -51,7 +53,7 @@ a:hover {
 }
 
 #logo {
- margin-top: 75px;
+ margin-top: 50px;
  background:#f2f2f2;
  background-image:url('logo.jpg');
  background-repeat:no-repeat;
@@ -93,9 +95,58 @@ a:hover {
 
 #content {
   position: absolute;
-  top:230px;
+  top:250px;
   left:350px;
   width: 510px;
+  padding-bottom: 180px;
+}
+
+
+blockquote {
+  font-family: Georgia, serif;
+  font-size: 1.4em;
+  font-style: italic;
+  margin: 0.25em 0 ;
+}
+
+
+caption {
+  font-family: Georgia, serif;
+  font-size: 0.8em;
+  font-style: italic;
+  caption-side:bottom;
+  color: #FFFFFF;
+  background: #231f20;
+  margin: 0.25em 0;
+  padding: 0.25em 40px;
+}
+
+.picture { 
+  background-color: #231f20; 
+  padding: 3px 5px 3px 5px;
+  font-family: Georgia, serif;
+  font-size: 0.8em;
+  font-style: italic;
+  caption-side:bottom;
+  color: #FFFFFF;
+  z-index: 5;
+}
+
+.picture img { 
+  vertical-align:middle;
+  margin-bottom: 3px; 
+}
+
+.right { 
+ margin: 0em -0.5 0.8em 0.5em; 
+  float:right;
+  padding: 3px; 
+}
+
+.left { 
+  margin: 0em 0 0.5em -0.5em;
+   float:left; 
+  padding: 3px;
 }
 
 .contentbox {
@@ -103,7 +154,7 @@ a:hover {
   padding: 10px;
   border-radius: 3px;
   width: 510px;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
   border-style:solid;
   border-color:#000000 #343434;
   border-width:3px;
@@ -113,7 +164,7 @@ a:hover {
   padding: 20px;
   border-radius: 3px;
   position: absolute;
-  top: 250px;
+  top: 240px;
   left:5px;
   width: 280px;
 }
@@ -122,16 +173,16 @@ a:hover {
   padding: 20px;
   border-radius: 3px;
   position: absolute;
-  top: 250px;
+  top: 240px;
   left:915px;
   width: 300px;
 }
 
 .sidecolumnbox {
  background: rgba(255,255,255,0.5);
-  padding: 15px;
-  width: 250px;
-  margin-bottom: 10px;
+  padding: 20px;
+  width: 240px;
+  margin-bottom: 20px;
   border-style:solid;
   border-color:#000000;
   border-width:2px;
@@ -139,13 +190,13 @@ a:hover {
 
 #footer {
  background: #231f20;
-  color: #FFFFFF;
+ color: #FFFFFF;
  clear: both;
- position: fixed;
+ position: relative;
  bottom: 0px;
- height: 3em;
+ min-height: 180px;
  min-width: 100%;
- z-index: 10;
+ bottom: -1090px; /* negative value of footer height */
 }
 
 #wrapper {
