@@ -1,15 +1,15 @@
 html {
-  background-color: #e8e9e9;
+  background-color: #f2f2f2;
   font-size: 1em;
   line-height: 1.4;
   font-family: 'Averia Serif Libre', sans-serif;
 }
 
-
 body {
    margin:0;
    padding:0;
    height:100%;
+   font-size: 0.8em;
 }
 
 h1 {
@@ -51,12 +51,14 @@ a:hover {
 }
 
 #logo {
- background-image:url("logo.jpg");
+ margin-top: 75px;
  background:#f2f2f2;
- height: 180px;
+ background-image:url('logo.jpg');
+ background-repeat:no-repeat;
+ background-position:attachment;
+ background-position:center; 
+ height: auto;
  width: 100%'
- position: absolute;
- top: 50px;
  z-index: 5;
 }
 
@@ -66,44 +68,78 @@ a:hover {
   position: fixed;
   top: 0px;
   height:auto;
-  min-height: 30px;
+  min-height: 50px;
   min-width: 100%;
   z-index: 10;
   color: #FFFFFF;
+  font-size: 1.2em;
 }
 
-#contentbox {
- background: rgba(255,255,255,0.5);
-  padding: 20px;
-  border-radius: 3px;
+#nav li{
+  display:inline;
+  padding:0;
+  margin:0;
+}
+
+#nav a:link,
+#nav a:visited {
+  color:#FFFFFF;
+  text-decoration: none;
+  text-transform:uppercase;
+  font-weight: 200;
+  padding:20px 40px 4px 10px;
+  width:100%;
+}
+
+#content {
   position: absolute;
-  top:200px;
+  top:230px;
   left:350px;
-  width: 500px;
+  width: 510px;
+}
+
+.contentbox {
+ background: rgba(255,255,255,0.5);
+  padding: 10px;
+  border-radius: 3px;
+  width: 510px;
+  margin-bottom: 25px;
+  border-style:solid;
+  border-color:#000000 #343434;
+  border-width:3px;
 }
 
 #sidecolumn-left {
-  background: #f2f2f2;
   padding: 20px;
   border-radius: 3px;
   position: absolute;
-  top: 200px;
+  top: 250px;
   left:5px;
   width: 280px;
 }
 
 #sidecolumn-right {
-  background: #f2f2f2;
   padding: 20px;
   border-radius: 3px;
   position: absolute;
-  top: 200px;
+  top: 250px;
   left:915px;
   width: 300px;
 }
 
+.sidecolumnbox {
+ background: rgba(255,255,255,0.5);
+  padding: 15px;
+  width: 250px;
+  margin-bottom: 10px;
+  border-style:solid;
+  border-color:#000000;
+  border-width:2px;
+}
+
 #footer {
  background: #231f20;
+  color: #FFFFFF;
  clear: both;
  position: fixed;
  bottom: 0px;
