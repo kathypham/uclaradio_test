@@ -38,7 +38,8 @@
     <div class="contentbox">
       <h2> #category</h2>
            
-			<h1>This is a TEST.</h1>
+			<h1>This is a TEST.</h1> <hr>
+
 			<blockquote>
         For our concert and album reviews, visit our
         <em><a href="http://uclaradio.tumblr.com">Tumblr.</a></em>
@@ -59,7 +60,7 @@
       <img src="Blank.gif" width="200" height="200" alt="Filler Image" /> <br>
       Image Caption goes here. 
       </div>
-			<h1 class="left">This is a TEST.</h1>
+			<h1>This is a TEST.</h1> <hr>
             <p>
         <em>Tune in <a href="http://stream.uclaradio.com:8000/listen">here</a>
          for UCLA Radio’s regular programming.</em> You can also find us on
@@ -75,7 +76,7 @@
       <img src="Blank.gif" width="200" height="200" alt="Filler Image" /> <br>
       Image Caption goes here. 
       </div>
-			<h1 class="right">This is a TEST.</h1>
+			<h1>This is a TEST.</h1> <hr>
       <p>
         Our full site should be back up and running shortly.
         Thanks for supporting college radio!
@@ -87,8 +88,8 @@
       <img src="Blank.gif" width="200" height="200" alt="Filler Image" /> <br>
       Image Caption goes here. 
       </div>
-			<h1 class="left">This is a TEST.</h1>
-            <p class="left">
+			<h1>This is a TEST.</h1> 			<hr>
+            <p>
         <em>Tune in <a href="http://stream.uclaradio.com:8000/listen">here</a>
          for UCLA Radio’s regular programming.</em> You can also find us on
          <em><a href="http://tunein.com/radio/UCLA-Radio-s2652/">TuneIn</a></em>,
@@ -100,7 +101,7 @@
     </div>
     <div id="sidecolumn-left">
         <div class="sidecolumnbox">
-    Insert Social Media Buttons <br>
+    Insert Social Media Buttons <hr>
     <h3>Events</h3>
     </div>
     
@@ -132,11 +133,12 @@ UCLAradio.com<br>
 Los Angeles, CA 90024<br>
 </p>
     </div>
+     <div class="sidecolumnbox">
+    <h3>Sponsors</h3>
+   <p>Most likely Ad Space here or a Thank you to Donors</p>
+   </div>
     </div>
   </body>
-  <div id="main"> 
-    </div>
-    
     <div id="footer"> Footer Columns and � 2013 UCLA Radio </div>
   </div>  
 </html>
