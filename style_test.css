@@ -2,49 +2,14 @@ html {
   background-color: #e8e9e9;
   font-size: 1em;
   line-height: 1.4;
-}
-
-
-body {
-  margin: auto;
   font-family: 'Averia Serif Libre', sans-serif;
 }
 
 
-.nav {
-  background: #231f20;
-  position: relative;
-  top: 0px;
-  height: 30px;
-
-}
-
-.contentbox {
-  background: rgba(255,255,255,0.5);
-  padding: 20px;
-  border-radius: 3px;
-  position: absolute;
-  left:350px;
-  width: 500px
-}
-
-.sidecolumn-left {
-  background: #f2f2f2;
-  padding: 20px;
-  border-radius: 3px;
-  position: relative;
-  left:5px;
-  width: 280px
-}
-
-.sidecolumn-right {
-  background: #f2f2f2;
-  padding: 20px;
-  border-radius: 3px;
-  position: absolute;
-  top: 205px;
-  left:915px;
-  width: 300px;
+body {
+   margin:0;
+   padding:0;
+   height:100%;
 }
 
 h1 {
@@ -85,10 +50,68 @@ a:hover {
   color: #89C8F0;
 }
 
-.logo {
+#logo {
  background:#f2f2f2;
  height: 150px;
- margin-bottom: 25px;
+ width: 100%'
+ position: absolute;
+ top: 50px;
 }
 
+#nav {
+  background: #231f20;
+  position: fixed;
+  top: 0px;
+  height:auto;
+  min-height: 30px;
+  min-width: 100%;
+  z-index: 10;
+}
 
+#contentbox {
+ background: rgba(255,255,255,0.5);
+  padding: 20px;
+  border-radius: 3px;
+  position: absolute;
+  top: 100px;
+  left:350px;
+  width: 500px;
+}
+
+#sidecolumn-left {
+  background: #f2f2f2;
+  padding: 20px;
+  border-radius: 3px;
+  position: absolute;
+  top: 100px;
+  left:5px;
+  width: 280px;
+}
+
+#sidecolumn-right {
+  background: #f2f2f2;
+  padding: 20px;
+  border-radius: 3px;
+  position: absolute;
+  top: 100px;
+  left:915px;
+  width: 300px;
+}
+
+#footer {
+ background: #231f20;
+ clear: both;
+ position: fixed;
+ bottom: 0px;
+ height: 3em;
+ min-width: 100%;
+ z=index: 10;
+}
+
+#wrapper {
+  height:auto;
+  min-height: 100%;
+  position:relative;
+  margin-left: auto;
+  margin-right: auto;
+}
