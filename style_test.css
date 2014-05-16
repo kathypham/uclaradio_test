@@ -1,21 +1,20 @@
 html {
-  background-color: #e8e9e9;
-  font-size: 1em;
-  line-height: 1.4;
+  background-color: #f2f2f2;
+  line-height: 1.3;
   font-family: 'Averia Serif Libre', sans-serif;
 }
-
 
 body {
    margin:0;
    padding:0;
    height:100%;
+  font-size: 0.7em;
 }
 
 h1 {
   font-size: 2.0em;
   font-weight: 700;
-  text-align: center;
+  text-align: auto;
   text-transform:uppercase;
   text-decoration: underline;
   font-family: 'Averia Serif Libre', sans-serif;
@@ -23,17 +22,27 @@ h1 {
 
 h2 {
   font-size: 1.5em;
-  font-weight: 200;
+  font-weight: 700;
   text-align: center;
   text-transform:uppercase;
   background: #f4ed74;
+  border-style:solid;
+  border-color: #e5de64;
+  border-width: 1px;
+  z-index: 5;
+  margin: 0 0 0;
+  font-family: 'Averia Serif Libre', sans-serif;
+  margin: 0em -0.5em 0.1em;
+  display: block;
 }
 
 h3 {
   font-size: 1.5em;
-  font-weight: 400;
+  font-weight: 700;
   text-transform:uppercase;
   color: #ed1c24;
+  font-family: 'Averia Serif Libre', sans-serif;
+  display: block;
 }
 
 p {
@@ -51,61 +60,152 @@ a:hover {
 }
 
 #logo {
+ margin-top: 50px;
  background:#f2f2f2;
- height: 150px;
+ background-image:url('logo.jpg');
+ background-repeat:no-repeat;
+ background-position:attachment;
+ background-position:center; 
+ height: auto;
  width: 100%'
- position: absolute;
- top: 50px;
+ z-index: 5;
 }
 
 #nav {
+  clear: both;
   background: #231f20;
   position: fixed;
   top: 0px;
   height:auto;
-  min-height: 30px;
+  min-height: 50px;
   min-width: 100%;
   z-index: 10;
+  color: #FFFFFF;
+  font-size: 1.2em;
 }
 
-#contentbox {
- background: rgba(255,255,255,0.5);
-  padding: 20px;
-  border-radius: 3px;
+#nav li{
+  display:inline;
+  padding:0;
+  margin:0;
+}
+
+#nav a:link,
+#nav a:visited {
+  color:#FFFFFF;
+  text-decoration: none;
+  text-transform:uppercase;
+  font-weight: 200;
+  padding:20px 40px 4px 10px;
+  width:100%;
+   font-family: 'Averia Serif Libre', sans-serif;
+}
+
+#content {
   position: absolute;
-  top: 100px;
+  top:260px;
   left:350px;
-  width: 500px;
+  width: 510px;
+  padding-bottom: 180px;
+}
+
+
+blockquote {
+  font-family: Georgia, serif;
+  font-size: 1.4em;
+  font-style: italic;
+  margin: 0.25em 0 ;
+}
+
+
+caption {
+  font-family: Georgia, serif;
+  font-size: 0.8em;
+  font-style: italic;
+  caption-side:bottom;
+  color: #FFFFFF;
+  background: #231f20;
+  margin: 0.25em 0;
+  padding: 0.25em 40px;
+}
+
+.picture { 
+  background-color: #231f20; 
+  padding: 3px 5px 3px 5px;
+  font-family: Georgia, serif;
+  font-size: 0.8em;
+  font-style: italic;
+  caption-side:bottom;
+  color: #FFFFFF;
+  z-index: 5;
+}
+
+.picture img { 
+  vertical-align:middle;
+  margin-bottom: 5px; 
+}
+
+.right { 
+  margin: 0em -0.5em 0.5em 0.5em; 
+  float:right;
+  padding: 3px;
+}
+
+.left { 
+  margin: 0em 0.5em 0.8em -0.5em;
+  float:left; 
+  padding: 3px;
+}
+
+.contentbox {
+ clear: both;
+ background: rgba(255,255,255,0.5);
+  padding: 10px 0 0 5px;
+  border-radius: 3px;
+  width: 510px;
+  margin-bottom: 35px;
+  border-style:solid;
+  border-color:#000000 #343434;
+  border-width:3px;
 }
 
 #sidecolumn-left {
-  background: #f2f2f2;
   padding: 20px;
   border-radius: 3px;
   position: absolute;
-  top: 100px;
+  top: 250px;
   left:5px;
   width: 280px;
 }
 
 #sidecolumn-right {
-  background: #f2f2f2;
   padding: 20px;
   border-radius: 3px;
   position: absolute;
-  top: 100px;
+  top: 250px;
   left:915px;
   width: 300px;
 }
 
+.sidecolumnbox {
+ background: rgba(255,255,255,0.5);
+  padding: 20px;
+  width: 240px;
+  margin-bottom: 20px;
+  border-style:solid;
+  border-color:#000000;
+  border-width:2px;
+}
+
 #footer {
- background: #231f20;
+ background: #000000;
+ color: #FFFFFF;
  clear: both;
- position: fixed;
+ position: relative;
  bottom: 0px;
- height: 3em;
+ min-height: 200px;
  min-width: 100%;
- z=index: 10;
+ bottom: -1090px; /* negative value of footer height */
 }
 
 #wrapper {
@@ -114,4 +214,40 @@ a:hover {
   position:relative;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+.button {
+  margin-top: 5px;
+  padding:5px;
+  border: 3px solid #ed1c24;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform:uppercase;
+  color: #ed1c24;
+  font-family: 'Averia Serif Libre', sans-serif;
+  display: block;
+
+}
+
+.button a:link, 
+.button a:hover, 
+.button a:visited {
+ font-size: 1.5em;
+  font-weight: 700;
+  text-transform:uppercase;
+  color: #ed1c24;
+  font-family: 'Averia Serif Libre', sans-serif;
+  display: block;
+}
+
+/* Gradient transparent - color - transparent */
+		
+hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
 }
